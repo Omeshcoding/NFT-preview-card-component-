@@ -1,0 +1,63 @@
+:root {
+    /* ### Primary */
+
+--Soft-blue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+
+/* ### Neutral */
+/* -(main BG) */
+--Very-dark-blue-1: hsl(217, 54%, 11%);
+/* (card BG) */
+--Very-dark-blue-2 : hsl(216, 50%, 16%);
+/* (line) */
+--Very-dark-blue-3: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+
+
+/* ### Body Copy */
+ /* (paragraph) */
+--Font-size-P: 18px;
+}
+
+
+body{
+    margin:0;
+    padding:0;
+    background-color: var(--Very-dark-blue-1);
+}
+
+.container{
+    margin:50px auto;
+    
+    width: 375px;
+    background-color: var(--Very-dark-blue-2);
+    border-radius: 10px;
+    /* width:50px; */ 
+}
+.card{
+    margin:0 auto;
+    width: 340px;
+}
+.equilibrium-img{
+    width:100%;
+    text-align:center;
+    margin:1rem auto;
+    border-radius: 10px;
+    margin-bottom:0;
+}
+
+
+
+
+
+
+
+
+
+/* Feel free to remove these styles or customise in your own stylesheet 👍 */
+  .attribution { font-size: 11px; 
+    text-align: center; 
+}
+  .attribution a { 
+      color: hsl(228, 45%, 44%);
+     }
