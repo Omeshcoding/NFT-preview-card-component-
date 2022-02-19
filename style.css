@@ -29,7 +29,6 @@ body{
 
 .container{
     margin:50px auto;
-    
     width: 375px;
     background-color: var(--Very-dark-blue-2);
     border-radius: 10px;
@@ -76,7 +75,7 @@ body{
 /* Image-Hover Effect */
 .top-color:hover{
     background-color: var(--Cyan);
-    opacity: .4;
+    opacity: .3;
 }
 /* .img-card:hover .equilibrium-img{
     display: inline-block;
@@ -95,16 +94,57 @@ body{
 .color-text:hover{
     color: var(--Cyan);
 }
+/* Horizontal Line */
+.hr-line {
+    content:"";
+    width:100%;
+    height:1px;
+    background: var(--Very-dark-blue-3);
+    margin-top:  0px;
+    margin-bottom:  4px;
+  }
+/* Content Section */
+.content{
+padding: .5rem 0;
+}
 
-
-
+.flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.content-text{
+    /* display: inline-flex; */
+    color:var(--Soft-blue);
+    font-family: 'Outfit' ,sans-serif;
+    padding:.2rem;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.icon{
+    height:60%;
+    margin-left:2px;
+}
+.creator{
+    display: inline-flex;
+}
+.creator img{
+    width: 14%;
+    margin-right:13px; 
+    border:2px solid #fff;
+    border-radius: 50%;   
+}
 
 
 
 /* Feel free to remove these styles or customise in your own stylesheet 👍 */
-  .attribution { font-size: 11px; 
-    text-align: center; 
+  .attribution { 
+    font-size: 11px; 
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
 }
-  .attribution a { 
-      color: hsl(228, 45%, 44%);
+.attribution a { 
+      text-decoration: none;
+      color:hsl(178, 100%, 50%);
      }
