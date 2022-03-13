@@ -128,7 +128,7 @@ padding: .5rem 0;
 .creator{
     display: inline-flex;
 }
-.creator img{
+.creator  img{
     width: 14%;
     margin-right:13px; 
     border:2px solid #fff;
